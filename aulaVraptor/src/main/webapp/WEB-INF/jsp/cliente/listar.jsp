@@ -40,7 +40,7 @@
 		</form>
 	</div>
 
-	<div class="row hide">
+	<div class="row">
 		<div class="col-xs-12">
 			<p>Exemplo auto complete</p>
 			<label for="nome">Nome</label>

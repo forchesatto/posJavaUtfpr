@@ -7,24 +7,12 @@
 <title>Página de teste</title>
 </head>
 <body>
-	Olá Pós em Java UTFPR teste
-	${teste}
+	${codigo} - ${nome}
+	<br />
 	
-	<form action="valorView">
-		<input name="cliente.codigo" id="codigo" type="text"/>
-		<input name="cliente.nome" id="nome" type="text"/>
-		<button type="submit">Enviar servidor</button>
-	</form>
+	Objeto cliente:
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	${cliente.codigo} - ${cliente.nome} 
 	
 </body>
 </html>

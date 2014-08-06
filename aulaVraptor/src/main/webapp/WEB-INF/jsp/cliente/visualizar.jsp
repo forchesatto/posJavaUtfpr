@@ -7,7 +7,8 @@
 	<c:forEach var="error" items="${errors}">
 	    ${error.category} - ${error.message}<br />
 	</c:forEach>
-	<form class="form-horizontal" action="${linkTo[ClienteController].alterar(cliente)}" method="post">
+	<form class="form-horizontal" 
+	action="${linkTo[ClienteController].alterar(cliente)}" method="post">
 		<input type="hidden" name="cliente.codigo" id="cliente-codigo" value="${cliente.codigo}"/>
 		<fieldset>
 			<!-- Form Name -->

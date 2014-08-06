@@ -7,7 +7,9 @@
 	<c:forEach var="error" items="${errors}">
 	    ${error.category} - ${error.message}<br />
 	</c:forEach>
-	<form class="form-horizontal" action="${linkTo[ClienteController].adicionar}" method="post">
+	<form class="form-horizontal" 
+		 action="${linkTo[ClienteController].adicionar}"
+		 method="post">
 		<fieldset>
 			<!-- Form Name -->
 			<legend>Cadastro de Cliente</legend>
@@ -16,14 +18,16 @@
 				<label class="col-xs-3 control-label" for="nome">Nome:</label>
 				<div class="col-xs-6">
 					<input id="nome" name="cliente.nome" placeholder=""
-						class="form-control input-md" required="" type="text">
+						class="form-control input-md" required="" 
+						type="text">
 				</div>
 			</div>
 			<!-- Button -->
 			<div class="form-group">
 				<label class="col-xs-3 control-label" for="save"></label>
 				<div class="col-xs-8">
-					<button id="save" name="save" class="btn btn-primary">Salvar</button>
+					<button id="save" name="save" 
+						class="btn btn-primary">Salvar</button>
 				</div>
 			</div>
 		</fieldset>
